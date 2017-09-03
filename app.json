@@ -1,0 +1,11 @@
+{
+  "name": "GitHub WIP PR Webhook handler",
+  "description": "Using GitHub webhooks to implement GitLab's \"WIP\" pull request pending status ",
+  "repository": "https://github.com/Schniz/github-wip-pr-status",
+  "keywords": ["node", "express", "static"],
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "Your GitHub Access Token (\"Personal Access Token\")"
+    }
+  }
+}
